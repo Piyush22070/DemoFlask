@@ -24,7 +24,6 @@ ENV/
 *.env
 
 # Model and data files (optional, remove if you want to track them)
-*.pkl
 *.h5
 *.joblib
 *.csv
