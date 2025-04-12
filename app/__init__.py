@@ -1,7 +1,6 @@
 from flask import Flask
-from .routes import routes
 
-def create_app():
-    app = Flask(__name__)
-    app.register_blueprint(routes)
-    return app
+app = Flask(__name__)
+
+# Import routes or views
+from app import routes
